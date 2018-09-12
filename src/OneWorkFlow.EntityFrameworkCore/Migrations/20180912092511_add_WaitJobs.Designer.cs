@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OneWorkFlow.EntityFrameworkCore;
 
 namespace OneWorkFlow.Migrations
 {
     [DbContext(typeof(OneWorkFlowDbContext))]
-    partial class OneWorkFlowDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180912092511_add_WaitJobs")]
+    partial class add_WaitJobs
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1089,49 +1091,6 @@ namespace OneWorkFlow.Migrations
                     b.HasIndex("TenancyName");
 
                     b.ToTable("AbpTenants");
-                });
-
-            modelBuilder.Entity("OneWorkFlow.WaitJobs.WaitJobs", b =>
-                {
-                    b.Property<string>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<DateTime>("CreationTime");
-
-                    b.Property<string>("CreatorUserId");
-
-                    b.Property<DateTime?>("DeletionTime");
-
-                    b.Property<bool>("IsDeleted");
-
-                    b.Property<DateTime?>("LastModificationTime");
-
-                    b.Property<string>("LastModifierUserId");
-
-                    b.Property<int>("isCompleted");
-
-                    b.Property<int>("isOverdue");
-
-                    b.Property<string>("param");
-
-                    b.Property<int>("priority");
-
-                    b.Property<string>("receiveId")
-                        .IsRequired();
-
-                    b.Property<string>("senderId")
-                        .IsRequired();
-
-                    b.Property<string>("title")
-                        .IsRequired();
-
-                    b.Property<int>("types");
-
-                    b.Property<string>("url");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("wf_WaitJobs");
                 });
 
             modelBuilder.Entity("Abp.Application.Features.EditionFeatureSetting", b =>

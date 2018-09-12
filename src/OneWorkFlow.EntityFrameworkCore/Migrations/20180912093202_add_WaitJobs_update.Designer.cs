@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OneWorkFlow.EntityFrameworkCore;
 
 namespace OneWorkFlow.Migrations
 {
     [DbContext(typeof(OneWorkFlowDbContext))]
-    partial class OneWorkFlowDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180912093202_add_WaitJobs_update")]
+    partial class add_WaitJobs_update
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1093,12 +1095,14 @@ namespace OneWorkFlow.Migrations
 
             modelBuilder.Entity("OneWorkFlow.WaitJobs.WaitJobs", b =>
                 {
-                    b.Property<string>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<DateTime>("CreationTime");
 
-                    b.Property<string>("CreatorUserId");
+                    b.Property<long?>("CreatorUserId");
+
+                    b.Property<long?>("DeleterUserId");
 
                     b.Property<DateTime?>("DeletionTime");
 
@@ -1106,7 +1110,7 @@ namespace OneWorkFlow.Migrations
 
                     b.Property<DateTime?>("LastModificationTime");
 
-                    b.Property<string>("LastModifierUserId");
+                    b.Property<long?>("LastModifierUserId");
 
                     b.Property<int>("isCompleted");
 
