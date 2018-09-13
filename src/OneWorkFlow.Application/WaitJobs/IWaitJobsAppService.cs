@@ -13,10 +13,10 @@ namespace OneWorkFlow.WaitJobs
         /// <summary>
         /// 获取待办列表
         /// </summary>
-        /// <param name="currentUserId">当前用户</param>
-        /// <param name="type">类别</param>
-        /// <param name="status">状态</param>
+        /// <param name="input"></param>
         /// <returns></returns>
-        Task<PagedResultDto<WaitJobsDto>> GetWaitList(string currentUserId, int type, int status,PagedResultRequestDto input);
+        Task<PagedResultDto<WaitJobsDto>> GetWaitList(GetWaitListInput input);
+
+        //Task<WaitJobsDto> UpdateStatus();
     }
 }

@@ -1,4 +1,5 @@
-﻿using Abp.AutoMapper;
+﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -10,7 +11,7 @@ namespace OneWorkFlow.ComponentDemo.Dto
     /// 添加构件实体类
     /// </summary>
     [AutoMap(typeof(ComponentInfo))]
-    public class CreateComponentInfoDto
+    public class CreateComponentInfoDto : EntityDto<int>
     {
         /// <summary>
         /// 构件名称

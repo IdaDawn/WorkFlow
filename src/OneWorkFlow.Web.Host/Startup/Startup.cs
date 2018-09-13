@@ -29,6 +29,8 @@ namespace OneWorkFlow.Web.Host.Startup
         public Startup(IHostingEnvironment env)
         {
             _appConfiguration = env.GetAppConfiguration();
+            //var initializer = new StackExchange.Profiling.Internal.DiagnosticInitializer(new[] { new StackExchange.Profiling.Data.RelationalDiagnosticListener() });
+            //initializer.Start();
         }
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
@@ -78,7 +80,6 @@ namespace OneWorkFlow.Web.Host.Startup
                 // Assign scope requirements to operations based on AuthorizeAttribute
                 options.OperationFilter<SecurityRequirementsOperationFilter>();
             });
-
             // Configure Abp and Dependency Injection
             return services.AddAbp<OneWorkFlowWebHostModule>(
                 // Configure Log4Net logging
@@ -86,6 +87,8 @@ namespace OneWorkFlow.Web.Host.Startup
                     f => f.UseAbpLog4Net().WithConfig("log4net.config")
                 )
             );
+
+           
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)

@@ -1,5 +1,6 @@
 ﻿using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
+using Abp.Runtime.Validation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -8,7 +9,7 @@ using System.Text;
 namespace OneWorkFlow.WaitJobs.Dto
 {
     [AutoMap(typeof(WaitJobs))]
-    public class CreateWaitJobs : EntityDto<string>
+    public class CreateWaitJobs : EntityDto<string>, IShouldNormalize
     {
         /// <summary>
         /// 标题
@@ -50,5 +51,10 @@ namespace OneWorkFlow.WaitJobs.Dto
         /// 优先级  默认0
         /// </summary>
         public int priority { get; set; }
+
+        public void Normalize()
+        {
+           
+        }
     }
 }

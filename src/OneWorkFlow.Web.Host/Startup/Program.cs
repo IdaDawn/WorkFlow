@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using StackExchange.Profiling;
 
 namespace OneWorkFlow.Web.Host.Startup
 {

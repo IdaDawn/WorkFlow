@@ -36,7 +36,6 @@ namespace OneWorkFlow.Web.Controllers
         {
             var output = await _roleAppService.GetRoleForEdit(new EntityDto(roleId));
             var model = new EditRoleModalViewModel(output);
-
             return View("_EditRoleModal", model);
         }
     }

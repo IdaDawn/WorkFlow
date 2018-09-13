@@ -4,7 +4,7 @@
     <text name="HomePage" value="主页" />
     <text name="About" value="关于我们" />
     <text name="WellcomeMessage" value="欢迎使用 OneWorkFlow!" />
-    
+
     <text name="FormIsNotValidMessage" value="部分输入信息不符合要求，请检查并改正.." />
     <text name="TenantNameCanNotBeEmpty" value="租户名不能为空" />
 
@@ -20,7 +20,32 @@
     <text name="LogIn" value="登录" />
 
     <text name="LoginFailed" value="登录失败!" />
-    <text name="SAMPLE DASHBOARD" value="简单仪表盘" />
+    <text name="Users" value="用户" />
+    <text name="Roles" value="角色" />
+    <text name="Components" value="构件库" />
+    <!--通用-->
+    <text name="Actions" value="操作" />
+    <text name="Refresh" value="刷新" />
+    <text name="Edit" value="编辑" />
+    <text name="Delete" value="删除" />
+    <text name="Cancel" value="取消" />
+    <text name="Save" value="保存" />
+    
+    <!--用户-->
+    <text name="UserName" value="用户名" />
+    <text name="FullName" value="全名" />
+    <text name="EmailAddress" value="邮箱地址" />
+    <text name="IsActive" value="是否激活" />
+    <!--角色-->
+    <text name="RoleName" value="角色名称" />
+    <text name="DisplayName" value="显示名称" />
+
+    <!--构件库-->
+    <text name="ComponentName" value="构件名称" />
+    <text name="ComponentSort" value="构件分类" />
+    <text name="CreateNewComponent" value="新建构件" />
+    <text name="EditComponent" value="编辑构件" />
+    <text name="SendWorkFlow" value="发起流程" />
     
   </texts>
 </localizationDictionary>
