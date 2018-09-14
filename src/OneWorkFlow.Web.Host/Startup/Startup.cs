@@ -15,8 +15,8 @@ using Abp.Extensions;
 using OneWorkFlow.Authentication.JwtBearer;
 using OneWorkFlow.Configuration;
 using OneWorkFlow.Identity;
-
 using Abp.AspNetCore.SignalR.Hubs;
+using Pivotal.Discovery.Client;
 
 namespace OneWorkFlow.Web.Host.Startup
 {
@@ -62,7 +62,12 @@ namespace OneWorkFlow.Web.Host.Startup
                         .AllowCredentials()
                 )
             );
-
+            //增加Eureka注册
+            services.AddDiscoveryClient(_appConfiguration);
+            //// Register FortuneService Hystrix command
+            //services.AddHystrixCommand<IEurekaClientService, EurekaClientService>("eureka-client", Configuration);
+            //// Add Hystrix metrics stream to enable monitoring 
+            //services.AddHystrixMetricsStream(Configuration);
             // Swagger - Enable this line and the related lines in Configure method to enable swagger UI
             services.AddSwaggerGen(options =>
             {
@@ -87,8 +92,7 @@ namespace OneWorkFlow.Web.Host.Startup
                     f => f.UseAbpLog4Net().WithConfig("log4net.config")
                 )
             );
-
-           
+         
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
@@ -103,6 +107,12 @@ namespace OneWorkFlow.Web.Host.Startup
 
             app.UseAbpRequestLocalization();
 
+            //// Add Hystrix Metrics context to pipeline
+            //app.UseHystrixRequestContext();
+            //Eureka
+            app.UseDiscoveryClient();
+            //// Startup Hystrix metrics stream
+            //app.UseHystrixMetricsStream();
 
             app.UseSignalR(routes =>
             {
