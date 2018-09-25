@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewData["Title"] = "发起流程";
+    Layout = null;
+}
+<script src="~/lib/json2/json2.js" asp-append-version="true"></script>
+<script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js" asp-append-version="true"></script>
+<script src="~/lib/moment/min/moment-with-locales.js" asp-append-version="true"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.js" asp-append-version="true"></script>
+<script src="~/lib/blockUI/jquery.blockUI.js" asp-append-version="true"></script>
+<script src="~/lib/toastr/toastr.js" asp-append-version="true"></script>
+<script src="~/lib/sweetalert/dist/sweetalert.min.js" asp-append-version="true"></script>
+<script src="~/lib/spin.js/spin.js" asp-append-version="true"></script>
+<script src="~/lib/spin.js/jquery.spin.js" asp-append-version="true"></script>
+<script src="~/lib/bootstrap-select/dist/js/bootstrap-select.js" asp-append-version="true"></script>
+<script src="~/lib/jquery-slimscroll/jquery.slimscroll.js" asp-append-version="true"></script>
+<script src="~/lib/Waves/dist/waves.js" asp-append-version="true"></script>
+<script src="~/lib/push.js/push.js" asp-append-version="true"></script>
+<script src="~/lib/abp-web-resources/Abp/Framework/scripts/abp.js" asp-append-version="true"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/rabbitMq/stomp.js"></script>
+<script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js"></script>
+<script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js"></script>
+<script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js"></script>
+<script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js"></script>
+<script>
+    if (typeof WebSocket == 'undefined') {
+        console.log('不支持websocket');
+    }
+    //var mqStompUrl = "http://47.104.65.81:15674/stomp";
+    // Stomp.js boilerplate
+    var ws = new WebSocket('ws://47.104.65.81:15674/ws');
+    var client = Stomp.over(ws);
+
+    client.debug = function () {
+        if (window.console && console.log && console.log.apply) {
+            console.log.apply(console, arguments);
+        }
+    };
+    var on_connect = function () {
+        client.subscribe("/exchange/workflowreceive", function (data) {
+            var msg = data.body;
+            alert("收到工作流程引擎数据：" + msg);
+        });
+    };
+    var on_error = function () {
+        console.log('error');
+    };
+    client.connect('guest', 'guest', on_connect, on_error, '/');
+    $(".save-button").click(function () {
+        var _stompService = abp.services.app.stomp;
+        var message = {
+            rId: '1',
+            flowOpation: 0
+        };
+        abp.ui.setBusy('#WorkFlowEditModal');
+        console.log(JSON.stringify(message));
+        _stompService.sendMessage(message).done(function () {
+            //$('#WorkFlowEditModal').modal('hide');
+            //location.reload(true); //reload page to see edited role!
+        }).always(function () {
+            //abp.ui.clearBusy('#WorkFlowEditModal');
+            });
+        var message1 = {
+            rId: '1',
+            flowOpation: 0
+        };
+        _stompService.receiveMessage(message1).done(function () {
+            //$('#WorkFlowEditModal').modal('hide');
+            //location.reload(true); //reload page to see edited role!
+        }).always(function () {
+            //abp.ui.clearBusy('#WorkFlowEditModal');
+        });
+    });
+</script>
+<style type="text/css">
+    iframe {
+        margin: 0px 0px;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+    <h4 class="modal-title">
+        <span>@ViewData["Title"]</span>
+    </h4>
+</div>
+
+<div class="modal-body" style="width:800px;height:800px;">
+    <iframe src="http://localhost:801/WorkFlowRun/Index_OneFlow?token=dae1c869-72ce-4792-9f0c-ee1baaa90412&rid=&flowid=5c00761b-309a-4695-8784-95b0c6b1ccd8&flowOpation=3"></iframe>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default close-button waves-effect" data-dismiss="modal">@L("Close")</button>
+    <button type="button" class="btn btn-primary save-button waves-effect">@L("SendFlow")</button>
+</div>

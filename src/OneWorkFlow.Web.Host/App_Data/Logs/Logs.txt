@@ -932,3 +932,512 @@ INFO  2018-09-14 19:25:38,234 [14   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2018-09-14 19:25:38,361 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
 INFO  2018-09-14 19:25:38,437 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
 INFO  2018-09-14 19:25:38,641 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 280.5993ms 200 application/json;charset=utf-8
+DEBUG 2018-09-21 14:53:53,011 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-21 14:53:53,098 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-21 14:53:53,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.Web.Host.Startup.OneWorkFlowWebHostModule, OneWorkFlow.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowWebCoreModule, OneWorkFlow.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowApplicationModule, OneWorkFlow.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowCoreModule, OneWorkFlow.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.EntityFrameworkCore.OneWorkFlowEntityFrameworkModule, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:53,122 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-21 14:53:53,193 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 14:53:53,193 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 14:53:53,193 [1    ] o.Configuration.LanguageManagementConfig - Converted OneWorkFlow (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 14:53:53,193 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 14:53:53,505 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OneWorkFlow.EntityFrameworkCore.OneWorkFlowDbContext, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:53:54,565 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-21 14:53:54,593 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-21 14:53:54,600 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-21 14:53:54,604 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OneWorkFlow
+DEBUG 2018-09-21 14:53:54,607 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-21 14:53:54,836 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-21 14:53:54,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2018-09-21 14:53:54,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-21 14:53:54,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.CreateWaitJobs
+DEBUG 2018-09-21 14:53:54,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.UpdateWaitJobs
+DEBUG 2018-09-21 14:53:54,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.WaitJobsDto
+DEBUG 2018-09-21 14:53:54,889 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.CreateUserDto
+DEBUG 2018-09-21 14:53:54,889 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.UserDto
+DEBUG 2018-09-21 14:53:54,889 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.PermissionDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.RoleDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.TenantDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.ComponentInfoDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.CreateComponentInfoDto
+DEBUG 2018-09-21 14:53:54,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.UpdateComponentInfoDto
+INFO  2018-09-21 14:53:59,264 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-21 14:53:59,264 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-21 14:53:59,360 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.3761ms 200 
+INFO  2018-09-21 14:54:09,127 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host)
+INFO  2018-09-21 14:54:10,661 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) - Validation state: Valid
+INFO  2018-09-21 14:54:10,672 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.4287ms.
+INFO  2018-09-21 14:54:11,008 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-21 14:54:11,039 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) in 1891.9234ms
+INFO  2018-09-21 14:54:11,085 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11810.196ms 302 
+INFO  2018-09-21 14:54:11,090 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-09-21 14:54:11,108 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.2096ms 301 
+INFO  2018-09-21 14:54:11,127 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-21 14:54:11,164 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.2263ms 200 text/html
+INFO  2018-09-21 14:54:11,191 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-21 14:54:11,195 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-21 14:54:11,202 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-09-21 14:54:11,206 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-09-21 14:54:11,211 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-21 14:54:11,269 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\GitHub\OneWorkFlow\src\OneWorkFlow.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-09-21 14:54:11,276 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\GitHub\OneWorkFlow\src\OneWorkFlow.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-09-21 14:54:11,309 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.4759ms 200 application/javascript
+INFO  2018-09-21 14:54:11,329 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-09-21 14:54:11,339 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 122.2984ms 200 application/javascript
+INFO  2018-09-21 14:54:11,345 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 133.0833ms 200 text/css
+INFO  2018-09-21 14:54:11,347 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-09-21 14:54:11,353 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 161.902ms 200 application/javascript
+INFO  2018-09-21 14:54:11,469 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-09-21 14:54:11,472 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 283.7044ms 200 application/javascript
+INFO  2018-09-21 14:54:11,878 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-21 14:54:12,156 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 291.3265ms 200 application/json;charset=utf-8
+INFO  2018-09-21 14:54:49,598 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/SendMessage application/json-patch+json 36
+INFO  2018-09-21 14:54:49,604 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 14:54:49,610 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 14:54:49,636 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "SendMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application)
+INFO  2018-09-21 14:54:49,638 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 14:54:49,639 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 14:54:49,812 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 14:54:50,999 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1182.9117ms.
+INFO  2018-09-21 14:54:51,056 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 14:54:51,076 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) in 1437.8197ms
+INFO  2018-09-21 14:54:51,079 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1481.3164ms 200 application/json; charset=utf-8
+INFO  2018-09-21 14:55:19,228 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/SendMessage application/json-patch+json 36
+INFO  2018-09-21 14:55:19,261 [29   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 14:55:19,291 [29   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 14:55:19,473 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "SendMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application)
+INFO  2018-09-21 14:55:19,476 [29   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 14:55:19,521 [29   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 14:55:19,712 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 14:55:20,093 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 375.4609ms.
+INFO  2018-09-21 14:55:20,104 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 14:55:20,106 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) in 630.9488ms
+INFO  2018-09-21 14:55:20,110 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 906.0534ms 200 application/json; charset=utf-8
+INFO  2018-09-21 14:56:08,391 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/SendMessage application/json-patch+json 36
+INFO  2018-09-21 14:56:08,394 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 14:56:08,396 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 14:56:08,405 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "SendMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application)
+INFO  2018-09-21 14:56:08,410 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 14:56:08,412 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 14:56:08,432 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 14:56:18,784 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10345.6348ms.
+INFO  2018-09-21 14:56:18,804 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 14:56:18,807 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) in 10398.2176ms
+INFO  2018-09-21 14:56:18,809 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10421.8124ms 200 application/json; charset=utf-8
+DEBUG 2018-09-21 14:58:52,889 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-21 14:58:52,974 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-21 14:58:52,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.Web.Host.Startup.OneWorkFlowWebHostModule, OneWorkFlow.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,991 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowWebCoreModule, OneWorkFlow.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowApplicationModule, OneWorkFlow.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowCoreModule, OneWorkFlow.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.EntityFrameworkCore.OneWorkFlowEntityFrameworkModule, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:52,996 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-21 14:58:53,061 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 14:58:53,061 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 14:58:53,061 [1    ] o.Configuration.LanguageManagementConfig - Converted OneWorkFlow (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 14:58:53,061 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 14:58:53,387 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OneWorkFlow.EntityFrameworkCore.OneWorkFlowDbContext, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 14:58:54,357 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-21 14:58:54,384 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-21 14:58:54,391 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-21 14:58:54,395 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OneWorkFlow
+DEBUG 2018-09-21 14:58:54,398 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-21 14:58:54,636 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-21 14:58:54,673 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2018-09-21 14:58:54,674 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-21 14:58:54,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.CreateWaitJobs
+DEBUG 2018-09-21 14:58:54,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.UpdateWaitJobs
+DEBUG 2018-09-21 14:58:54,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.WaitJobsDto
+DEBUG 2018-09-21 14:58:54,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.CreateUserDto
+DEBUG 2018-09-21 14:58:54,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.UserDto
+DEBUG 2018-09-21 14:58:54,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-21 14:58:54,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-21 14:58:54,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-21 14:58:54,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.PermissionDto
+DEBUG 2018-09-21 14:58:54,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.RoleDto
+DEBUG 2018-09-21 14:58:54,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-21 14:58:54,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.TenantDto
+DEBUG 2018-09-21 14:58:54,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.ComponentInfoDto
+DEBUG 2018-09-21 14:58:54,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.CreateComponentInfoDto
+DEBUG 2018-09-21 14:58:54,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.UpdateComponentInfoDto
+INFO  2018-09-21 14:58:58,908 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-21 14:58:58,908 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-21 14:58:58,997 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.4989ms 200 
+INFO  2018-09-21 14:59:08,806 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host)
+INFO  2018-09-21 14:59:10,048 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) - Validation state: Valid
+INFO  2018-09-21 14:59:10,058 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.4952ms.
+INFO  2018-09-21 14:59:10,252 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-21 14:59:10,266 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) in 1453.7211ms
+INFO  2018-09-21 14:59:10,285 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11383.9786ms 302 
+INFO  2018-09-21 14:59:10,288 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-21 14:59:10,320 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.8506ms 200 text/html
+INFO  2018-09-21 14:59:10,342 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-21 14:59:10,345 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-21 14:59:10,347 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-21 14:59:10,366 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-21 14:59:10,368 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-21 14:59:10,371 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-21 14:59:10,380 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.6438ms 304 application/javascript
+INFO  2018-09-21 14:59:10,382 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.3346ms 304 text/css
+INFO  2018-09-21 14:59:10,384 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.9824ms 304 application/javascript
+INFO  2018-09-21 14:59:10,763 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-21 14:59:10,981 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 218.9755ms 200 application/json;charset=utf-8
+INFO  2018-09-21 14:59:22,489 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/SendMessage application/json-patch+json 36
+INFO  2018-09-21 14:59:22,497 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 14:59:22,501 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 14:59:22,529 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "SendMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application)
+INFO  2018-09-21 14:59:22,531 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 14:59:22,534 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 14:59:22,730 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+DEBUG 2018-09-21 15:05:50,233 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-21 15:05:50,319 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-21 15:05:50,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.Web.Host.Startup.OneWorkFlowWebHostModule, OneWorkFlow.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowWebCoreModule, OneWorkFlow.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowApplicationModule, OneWorkFlow.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowCoreModule, OneWorkFlow.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.EntityFrameworkCore.OneWorkFlowEntityFrameworkModule, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,337 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:50,339 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-21 15:05:50,404 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 15:05:50,404 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 15:05:50,404 [1    ] o.Configuration.LanguageManagementConfig - Converted OneWorkFlow (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 15:05:50,404 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 15:05:50,733 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OneWorkFlow.EntityFrameworkCore.OneWorkFlowDbContext, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 15:05:51,682 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-21 15:05:51,710 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-21 15:05:51,719 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-21 15:05:51,723 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OneWorkFlow
+DEBUG 2018-09-21 15:05:51,728 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-21 15:05:51,925 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-21 15:05:51,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2018-09-21 15:05:51,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-21 15:05:51,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.CreateWaitJobs
+DEBUG 2018-09-21 15:05:51,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.UpdateWaitJobs
+DEBUG 2018-09-21 15:05:51,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.WaitJobsDto
+DEBUG 2018-09-21 15:05:51,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.CreateUserDto
+DEBUG 2018-09-21 15:05:51,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.UserDto
+DEBUG 2018-09-21 15:05:51,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-21 15:05:51,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-21 15:05:51,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-21 15:05:51,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.PermissionDto
+DEBUG 2018-09-21 15:05:51,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.RoleDto
+DEBUG 2018-09-21 15:05:51,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-21 15:05:51,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.TenantDto
+DEBUG 2018-09-21 15:05:51,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.ComponentInfoDto
+DEBUG 2018-09-21 15:05:51,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.CreateComponentInfoDto
+DEBUG 2018-09-21 15:05:51,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.UpdateComponentInfoDto
+INFO  2018-09-21 15:05:56,209 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-21 15:05:56,209 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-21 15:05:56,300 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.3629ms 200 
+INFO  2018-09-21 15:06:05,691 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host)
+INFO  2018-09-21 15:06:06,790 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) - Validation state: Valid
+INFO  2018-09-21 15:06:06,795 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.5322ms.
+INFO  2018-09-21 15:06:06,984 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-21 15:06:06,997 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) in 1299.8095ms
+INFO  2018-09-21 15:06:07,014 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-21 15:06:07,017 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10818.776ms 302 
+INFO  2018-09-21 15:06:07,052 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.6503ms 200 text/html
+INFO  2018-09-21 15:06:07,072 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-21 15:06:07,076 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-21 15:06:07,078 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-21 15:06:07,101 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-21 15:06:07,103 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-21 15:06:07,105 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-21 15:06:07,118 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.2496ms 304 application/javascript
+INFO  2018-09-21 15:06:07,121 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.901ms 304 text/css
+INFO  2018-09-21 15:06:07,124 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.6862ms 304 application/javascript
+INFO  2018-09-21 15:06:07,276 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-21 15:06:07,494 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 217.8458ms 200 application/json;charset=utf-8
+INFO  2018-09-21 15:06:21,697 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/SendMessage application/json-patch+json 36
+INFO  2018-09-21 15:06:21,707 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 15:06:21,710 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 15:06:21,737 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "SendMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application)
+INFO  2018-09-21 15:06:21,740 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 15:06:21,742 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 15:06:21,916 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 15:06:22,992 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1072.9593ms.
+INFO  2018-09-21 15:06:23,028 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 15:06:23,045 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) in 1305.4093ms
+INFO  2018-09-21 15:06:23,050 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1351.1319ms 200 application/json; charset=utf-8
+INFO  2018-09-21 15:21:23,462 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/SendMessage application/json-patch+json 36
+INFO  2018-09-21 15:21:23,465 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 15:21:23,469 [20   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 15:21:23,479 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "SendMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application)
+INFO  2018-09-21 15:21:23,482 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 15:21:23,486 [20   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 15:21:23,507 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 15:21:23,886 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 373.5723ms.
+INFO  2018-09-21 15:21:23,897 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 15:21:23,899 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) in 417.8381ms
+INFO  2018-09-21 15:21:23,901 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 441.4054ms 200 application/json; charset=utf-8
+INFO  2018-09-21 15:23:36,076 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/SendMessage application/json-patch+json 36
+INFO  2018-09-21 15:23:36,100 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 15:23:36,102 [30   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 15:23:36,220 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "SendMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application)
+INFO  2018-09-21 15:23:36,223 [30   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 15:23:36,225 [30   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 15:23:36,248 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 15:23:36,939 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 681.3978ms.
+INFO  2018-09-21 15:23:36,949 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 15:23:36,952 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) in 728.7767ms
+INFO  2018-09-21 15:23:36,956 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 891.6605ms 200 application/json; charset=utf-8
+INFO  2018-09-21 15:25:21,511 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/SendMessage application/json-patch+json 36
+INFO  2018-09-21 15:25:21,534 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 15:25:21,545 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 15:25:21,656 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "SendMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application)
+INFO  2018-09-21 15:25:21,658 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 15:25:21,661 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 15:25:21,681 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 15:25:22,064 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 380.5752ms.
+INFO  2018-09-21 15:25:22,086 [39   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 15:25:22,089 [39   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.SendMessage (OneWorkFlow.Application) in 430.3959ms
+INFO  2018-09-21 15:25:22,093 [39   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 593.4728ms 200 application/json; charset=utf-8
+DEBUG 2018-09-21 16:29:21,362 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-21 16:29:21,466 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-21 16:29:21,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.Web.Host.Startup.OneWorkFlowWebHostModule, OneWorkFlow.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowWebCoreModule, OneWorkFlow.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowApplicationModule, OneWorkFlow.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowCoreModule, OneWorkFlow.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.EntityFrameworkCore.OneWorkFlowEntityFrameworkModule, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:21,487 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-21 16:29:21,551 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 16:29:21,551 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 16:29:21,551 [1    ] o.Configuration.LanguageManagementConfig - Converted OneWorkFlow (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 16:29:21,551 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 16:29:21,861 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OneWorkFlow.EntityFrameworkCore.OneWorkFlowDbContext, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:29:22,823 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-21 16:29:22,848 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-21 16:29:22,854 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-21 16:29:22,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OneWorkFlow
+DEBUG 2018-09-21 16:29:22,862 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-21 16:29:23,068 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-21 16:29:23,106 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2018-09-21 16:29:23,106 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-21 16:29:23,113 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.CreateWaitJobs
+DEBUG 2018-09-21 16:29:23,113 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.UpdateWaitJobs
+DEBUG 2018-09-21 16:29:23,113 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.WaitJobsDto
+DEBUG 2018-09-21 16:29:23,113 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.CreateUserDto
+DEBUG 2018-09-21 16:29:23,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.UserDto
+DEBUG 2018-09-21 16:29:23,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-21 16:29:23,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-21 16:29:23,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-21 16:29:23,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.PermissionDto
+DEBUG 2018-09-21 16:29:23,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.RoleDto
+DEBUG 2018-09-21 16:29:23,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-21 16:29:23,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.TenantDto
+DEBUG 2018-09-21 16:29:23,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.ComponentInfoDto
+DEBUG 2018-09-21 16:29:23,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.CreateComponentInfoDto
+DEBUG 2018-09-21 16:29:23,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.UpdateComponentInfoDto
+INFO  2018-09-21 16:29:27,543 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-21 16:29:27,543 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-21 16:29:27,615 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.7058ms 200 
+INFO  2018-09-21 16:29:37,307 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host)
+INFO  2018-09-21 16:29:38,490 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) - Validation state: Valid
+INFO  2018-09-21 16:29:38,498 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.9784ms.
+INFO  2018-09-21 16:29:38,706 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-21 16:29:38,721 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) in 1408.4251ms
+INFO  2018-09-21 16:29:38,751 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-21 16:29:38,755 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11219.0173ms 302 
+INFO  2018-09-21 16:29:38,785 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.6704ms 200 text/html
+INFO  2018-09-21 16:29:38,801 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-21 16:29:38,805 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-21 16:29:38,807 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-21 16:29:38,825 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-21 16:29:38,827 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-21 16:29:38,831 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-21 16:29:38,839 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.207ms 304 application/javascript
+INFO  2018-09-21 16:29:38,841 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.7415ms 304 text/css
+INFO  2018-09-21 16:29:38,844 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.7631ms 304 application/javascript
+INFO  2018-09-21 16:29:38,990 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-21 16:29:39,216 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 227.6582ms 200 application/json;charset=utf-8
+INFO  2018-09-21 16:31:56,942 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/ReceiveMessage application/json-patch+json 41
+INFO  2018-09-21 16:31:57,086 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:31:57,127 [13   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:31:57,348 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ReceiveMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application)
+INFO  2018-09-21 16:31:57,350 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:31:57,353 [13   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:31:57,524 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 16:32:15,051 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17523.4573ms.
+INFO  2018-09-21 16:32:15,083 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 16:32:15,104 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) in 17753.036ms
+INFO  2018-09-21 16:32:15,107 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18165.079ms 200 application/json; charset=utf-8
+INFO  2018-09-21 16:34:01,902 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/ReceiveMessage application/json-patch+json 41
+INFO  2018-09-21 16:34:01,905 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:34:01,908 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:34:01,919 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ReceiveMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application)
+INFO  2018-09-21 16:34:01,921 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:34:01,924 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:34:01,947 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 16:34:02,316 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 363.0312ms.
+INFO  2018-09-21 16:34:02,324 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 16:34:02,326 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) in 405.6072ms
+INFO  2018-09-21 16:34:02,329 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 426.6992ms 200 application/json; charset=utf-8
+INFO  2018-09-21 16:34:25,264 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/ReceiveMessage application/json-patch+json 41
+INFO  2018-09-21 16:34:25,270 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:34:25,273 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:34:25,279 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ReceiveMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application)
+INFO  2018-09-21 16:34:25,282 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:34:25,285 [10   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:34:25,312 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 16:34:25,694 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 373.2833ms.
+INFO  2018-09-21 16:34:25,715 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 16:34:25,718 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) in 436.1805ms
+INFO  2018-09-21 16:34:25,724 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 456.5434ms 200 application/json; charset=utf-8
+DEBUG 2018-09-21 16:35:38,810 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-21 16:35:38,892 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-21 16:35:38,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.Web.Host.Startup.OneWorkFlowWebHostModule, OneWorkFlow.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowWebCoreModule, OneWorkFlow.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowApplicationModule, OneWorkFlow.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.OneWorkFlowCoreModule, OneWorkFlow.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OneWorkFlow.EntityFrameworkCore.OneWorkFlowEntityFrameworkModule, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:38,913 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-21 16:35:38,976 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 16:35:38,976 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 16:35:38,976 [1    ] o.Configuration.LanguageManagementConfig - Converted OneWorkFlow (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 16:35:38,976 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-21 16:35:39,274 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OneWorkFlow.EntityFrameworkCore.OneWorkFlowDbContext, OneWorkFlow.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-21 16:35:40,257 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-21 16:35:40,289 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-21 16:35:40,296 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-21 16:35:40,300 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: OneWorkFlow
+DEBUG 2018-09-21 16:35:40,303 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-21 16:35:40,503 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-21 16:35:40,540 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 16 classes define auto mapping attributes
+DEBUG 2018-09-21 16:35:40,540 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-21 16:35:40,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.CreateWaitJobs
+DEBUG 2018-09-21 16:35:40,546 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.UpdateWaitJobs
+DEBUG 2018-09-21 16:35:40,546 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.WaitJobs.Dto.WaitJobsDto
+DEBUG 2018-09-21 16:35:40,546 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.CreateUserDto
+DEBUG 2018-09-21 16:35:40,546 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Users.Dto.UserDto
+DEBUG 2018-09-21 16:35:40,546 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-21 16:35:40,546 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-21 16:35:40,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-21 16:35:40,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.PermissionDto
+DEBUG 2018-09-21 16:35:40,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.Roles.Dto.RoleDto
+DEBUG 2018-09-21 16:35:40,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-21 16:35:40,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.MultiTenancy.Dto.TenantDto
+DEBUG 2018-09-21 16:35:40,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.ComponentInfoDto
+DEBUG 2018-09-21 16:35:40,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.CreateComponentInfoDto
+DEBUG 2018-09-21 16:35:40,547 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OneWorkFlow.ComponentDemo.Dto.UpdateComponentInfoDto
+INFO  2018-09-21 16:35:45,258 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-21 16:35:45,258 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-09-21 16:35:45,343 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 90.394ms 200 
+INFO  2018-09-21 16:35:55,000 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host)
+INFO  2018-09-21 16:35:56,071 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) - Validation state: Valid
+INFO  2018-09-21 16:35:56,077 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.8897ms.
+INFO  2018-09-21 16:35:56,281 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-09-21 16:35:56,295 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.Web.Host.Controllers.HomeController.Index (OneWorkFlow.Web.Host) in 1288.7214ms
+INFO  2018-09-21 16:35:56,312 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-09-21 16:35:56,316 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11065.2781ms 302 
+INFO  2018-09-21 16:35:56,348 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.8956ms 200 text/html
+INFO  2018-09-21 16:35:56,365 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-09-21 16:35:56,368 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-09-21 16:35:56,372 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-09-21 16:35:56,393 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-09-21 16:35:56,395 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-09-21 16:35:56,397 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-09-21 16:35:56,402 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.7707ms 304 application/javascript
+INFO  2018-09-21 16:35:56,406 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.5242ms 304 text/css
+INFO  2018-09-21 16:35:56,408 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.3763ms 304 application/javascript
+INFO  2018-09-21 16:35:56,553 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-09-21 16:35:56,771 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 217.9356ms 200 application/json;charset=utf-8
+INFO  2018-09-21 16:36:29,053 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/ReceiveMessage application/json-patch+json 41
+INFO  2018-09-21 16:36:29,062 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:36:29,066 [13   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:36:29,095 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ReceiveMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application)
+INFO  2018-09-21 16:36:29,097 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:36:29,099 [13   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:36:29,278 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 16:36:29,801 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 521.6691ms.
+INFO  2018-09-21 16:36:29,828 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 16:36:29,844 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) in 746.4174ms
+INFO  2018-09-21 16:36:29,850 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 793.9763ms 200 application/json; charset=utf-8
+INFO  2018-09-21 16:37:01,701 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/ReceiveMessage application/json-patch+json 41
+INFO  2018-09-21 16:37:01,704 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:37:01,713 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:37:01,821 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ReceiveMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application)
+INFO  2018-09-21 16:37:01,831 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:37:01,852 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:37:02,051 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 16:37:02,461 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 404.5094ms.
+INFO  2018-09-21 16:37:02,470 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 16:37:02,473 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) in 648.4092ms
+INFO  2018-09-21 16:37:02,479 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 776.4875ms 200 application/json; charset=utf-8
+INFO  2018-09-21 16:37:13,458 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/ReceiveMessage application/json-patch+json 41
+INFO  2018-09-21 16:37:13,460 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:37:13,463 [17   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:37:13,469 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ReceiveMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application)
+INFO  2018-09-21 16:37:13,473 [17   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:37:13,477 [17   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:37:13,502 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 16:37:13,899 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 388.683ms.
+INFO  2018-09-21 16:37:13,909 [3    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 16:37:13,912 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) in 439.8069ms
+INFO  2018-09-21 16:37:13,915 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 457.2585ms 200 application/json; charset=utf-8
+INFO  2018-09-21 16:37:14,006 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Stomp/ReceiveMessage application/json-patch+json 41
+INFO  2018-09-21 16:37:14,010 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:37:14,012 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:37:14,018 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "ReceiveMessage", controller = "Stomp"}. Executing action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application)
+INFO  2018-09-21 16:37:14,020 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-09-21 16:37:14,022 [6    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-09-21 16:37:14,050 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) with arguments (OneWorkFlow.RabbitMQ.Dto.WorkFlowSendMessage) - Validation state: Valid
+INFO  2018-09-21 16:37:14,913 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 856.8948ms.
+INFO  2018-09-21 16:37:14,927 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-09-21 16:37:14,950 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action OneWorkFlow.RabbitMQ.StompAppService.ReceiveMessage (OneWorkFlow.Application) in 909.8374ms
+INFO  2018-09-21 16:37:14,956 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 947.0978ms 200 application/json; charset=utf-8

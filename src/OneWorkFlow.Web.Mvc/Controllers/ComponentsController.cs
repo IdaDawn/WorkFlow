@@ -33,5 +33,10 @@ namespace OneWorkFlow.Web.Mvc.Controllers
             var model = new EditComponentModalViewModel(output);
             return View("_EditComponentModal", model);
         }
+
+        public IActionResult SendWorkFlow()
+        {
+            return View();
+        }
     }
 }
